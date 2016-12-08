@@ -13,7 +13,7 @@ $ npm install --save micro-get
 
 ## Usage
 
-```
+```js
 'use strict'
 
 const {send} = require('micro')
