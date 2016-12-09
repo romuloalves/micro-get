@@ -21,7 +21,7 @@ const get = require('micro-get')
 
 /*
   - GET requests will execute the function
-  - Non-GET requests will return HTTP Code 404
+  - Non-GET requests will return HTTP Code 405
 */
 module.exports = get(async (req, res) => {
   return send(res, 200, `It's a GET request!`)
